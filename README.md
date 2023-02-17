@@ -1,5 +1,5 @@
 # Feeback-Form
-A feedback form stored in a cloud database.
+A feedback form stored in a cloud MySQL database.
 ### Techs
 #### Server
 <a href="https://nodejs.org/">Node</a><br>
