@@ -1,0 +1,9 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background: #FFFF;
+  max-height: 71rem;
+}
+
+head{
+  height: 0px;
+}

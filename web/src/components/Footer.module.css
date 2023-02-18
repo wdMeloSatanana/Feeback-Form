@@ -1,0 +1,25 @@
+.footer {
+    background: #FAFAFA;
+    height: 12.5rem;
+    width:auto;
+}
+ 
+#socialMediaIcons {
+    display: inline;
+    padding: 5rem 2rem;
+    
+  
+}
+
+#socialMediaIcons a {
+    text-decoration: none;
+    color: slategrey;
+    padding-left: 2.3rem;
+}
+
+.footerItems {
+    display: inline-block;
+    height: 192px;
+}
+
+ 

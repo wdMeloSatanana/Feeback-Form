@@ -1,0 +1,54 @@
+#container {
+    height: 35.94rem;
+    width: 35.18rem;
+    margin: 10.5rem 9.18rem;
+}
+
+#container h1 { 
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 400;
+}
+
+form input {
+    display: block;
+    font-size: 18px;
+    line-height: 180%;
+    width: 34rem;
+    height: 5.8rem;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    font-weight: 400;
+    padding-left: 2.6rem;
+    margin: 0.5rem;
+}
+
+#messageBox {
+    width: 34rem;
+    height: 11.8rem;
+    display: block;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    font-weight: 400;
+    padding-left: 2.6rem;
+    margin: 0.5rem;
+    font-size: 18px;
+    line-height: 180%;
+}
+
+button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    width: 13.62rem;
+    height: 4.56rem;
+    background: #FAD34F;
+    border-radius: 500px;
+    border: 0;
+    color: #FFFF;
+}
+
+#errorMsg {
+    color: red;
+}

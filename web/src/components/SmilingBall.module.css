@@ -1,0 +1,36 @@
+#vector {
+    background: #F472B7;
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;   
+    position: absolute;
+    overflow: zszz;
+}
+
+#eyesAndMouth {
+    position: absolute;
+    top: 45%;
+    transform: rotate(-45deg);
+}
+
+.eyes {
+    position: relative;
+    padding-left: 0.5rem;
+    display: inline-block; 
+    transform: rotate(45deg);
+    left: 42%;
+    right: 51%;
+    top: 64%;
+    bottom: 31.15%;
+}
+.mouth {
+    position: absolute;
+    display: block;
+    left: 56%;
+    right: 30%;
+    top: 65%;
+    bottom: 26%;
+    transform: rotate(45deg);
+
+}
+ 
