@@ -11,7 +11,7 @@ export class FormsController {
         return this.service.getForm(params.id);
     }
 
-    @Post()
+    @Post('/')
     create(@Body() form: Form){
         return this.service.createForm(form);
     }

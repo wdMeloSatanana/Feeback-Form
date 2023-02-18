@@ -10,7 +10,7 @@ A feedback page that stores your form in a cloud MySQL database.
 <a href="reactjs.org/">React</a><br>
 <a href="https://redux.js.org/">Redux</a>
 
-## Prints
+## Screenshots
 ### Web page
 ![img](https://github.com/wdMeloSatanana/Feeback-Form/blob/master/images/web-page.png?raw=true)
 

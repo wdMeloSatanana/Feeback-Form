@@ -20,7 +20,8 @@ export class FormsService {
     }
 
     async createForm(form: Form){
-        this.formRepository.insert(form);
+        console.log(form)
+        return await this.formRepository.createQueryBuilder().insert().into(Form).values(form).execute();
     }
 
     async updateForm(form: Form){
