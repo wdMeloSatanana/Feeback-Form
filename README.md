@@ -1,5 +1,5 @@
 # Feeback-Form
-A feedback page that stores your form in a cloud MySQL database.
+A feedback page in React that sends to a MySQL database through a Node/Nest.js API.
 ### Techs
 #### Server
 - <a href="https://nodejs.org/">Node</a><br>
