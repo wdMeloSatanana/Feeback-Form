@@ -4,6 +4,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { FormsModule } from './forms/forms.module';
 require('dotenv').config();
+import { env } from 'process';
 import { Form } from './forms/form.entity/form.entity';
 
 @Module({

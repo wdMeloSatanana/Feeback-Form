@@ -13,10 +13,12 @@ export class FormsService {
     }
 
     async getForm(_id: number): Promise<Form[]>{
-        return await this.formRepository.find({
+        const request =  await this.formRepository.find({
             select: ["name", "email", "sent", "message"],
             where: [{"id": _id}]
         })
+        console.log(request)
+        return request
     }
 
     async createForm(form: Form){
